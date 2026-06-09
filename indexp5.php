@@ -35,6 +35,9 @@
         echo "<strong>Alamat:</strong> {$alamat} <br>";
     }
     ?>
+    <footer>
+        <p>tugas php - faridatul khoiriyah</p>
+    </footer>
 </body>
 
 </html>
