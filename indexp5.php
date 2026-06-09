@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas 5</title>
-    
+
 </head>
+
 <body>
+    <h1>Form Data Diri</h1>
     <form action="">
         <div>
             <label for="">Name</label>
@@ -14,21 +17,24 @@
         </div>
         <div>
             <label for="">Alamat</label>
-             <input name="Alamat" placeholder="Masukkan alamat" id="">
+            <input name="Alamat" placeholder="Masukkan alamat" id="">
         </div>
         <div>
             <button>Submit</button>
         </div>
     </form>
-        <?php
+    <?php
     $nama = @$_GET['Nama'];
     $alamat = @$_GET['Alamat'];
 
-    if($nama){
-        echo "<strong>Nama:</strong> {$nama} <br>";}
+    if ($nama) {
+        echo "<strong>Nama:</strong> {$nama} <br>";
+    }
 
-    if($alamat){
-        echo "<strong>Alamat:</strong> {$alamat} <br>";}
+    if ($alamat) {
+        echo "<strong>Alamat:</strong> {$alamat} <br>";
+    }
     ?>
 </body>
+
 </html>
